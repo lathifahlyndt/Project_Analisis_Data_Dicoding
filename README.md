@@ -1,17 +1,17 @@
 # Bike Sharing Dashboard 🚲
 ## Setup Environment - Anaconda
 ```
-conda create --name bike_sharing_dashboard python=3.9
-conda activate bike_sharing_dashboard
+conda create --name dashboard python=3.12
+conda activate dashboard
 pip install -r requirements.txt
 ```
 ### Setup Environment - Shell/Terminal
 ```
-mkdir bike_sharing_dashboard
-cd bike_sharing_dashboard
+mkdir dashboard
+cd dashboard
 pipenv install
 pipenv shell
 pip install -r requirements.txt
 ```
 ### Run steamlit app
-streamlit run bike_sharing_dashboard.py
+streamlit run dashboard.py
